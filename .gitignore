@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-test/
+
+# Dev-only placeholder private key (NEVER commit a private key)
+dev/secret.asc
+dev/private.asc
+dev/*.sec.asc
+
+# OS / editor
+.DS_Store
+*.log
+
+# npm
+*.tgz
