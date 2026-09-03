@@ -1,10 +1,4 @@
-// Eluter's public key for security@eluter.com.
-//
-// RSA 3072, no expiry. Rotated on 2026-09-02 (fingerprint 900FAB4E...).
-// Keep EXPECTED_FINGERPRINT in sync, and publish the same fingerprint on
-// https://eluter.com/.well-known/security.txt.
-
-export const PUBLIC_KEY_ARMORED = `-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQGNBGqYdDUBDADOsZNl7/WCWf3g7VolRrtJpj1UoOJv1Q33O+E+ljgiPMpWGIZM
 MsemEK3tVsCjRH1lOzcRy/JxkTe/cJgIs+LYRWQmkqtPKF3TA/0ZJU/eebPchNfG
@@ -45,9 +39,4 @@ gE7VLRyWw/GjFAjKAYP4fEPnU69oy+FhHZhyqmWx2eR8j04Z69yyfYt1iIpA3UD+
 Dhjws6jenyyO8FRJeD8/Vxb44whtBo8QljrPeWu+CyocOrALaYZuckef8MbY69jP
 obhX4/TOlZuMhMkemh2lFHtebRdPvY+74+pwSg==
 =FcCr
------END PGP PUBLIC KEY BLOCK-----`;
-
-export const EXPECTED_FINGERPRINT = '900fab4ebe92159226e674f5e4e534ea55128805';
-
-export const RECIPIENT = 'security@eluter.com';
-export const SECURITY_TXT_URL = 'https://eluter.com/.well-known/security.txt';
+-----END PGP PUBLIC KEY BLOCK-----

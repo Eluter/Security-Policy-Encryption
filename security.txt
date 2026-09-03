@@ -1,0 +1,10 @@
+# security.txt (RFC 9116) - Eluter
+# Served at: https://eluter.com/.well-known/security.txt
+
+Contact: mailto:security@eluter.com
+Encryption: https://eluter.com/pgp-key.txt
+Encryption: openpgp4fpr:900FAB4EBE92159226E674F5E4E534EA55128805
+Expires: 2027-09-02T00:00:00.000Z
+Preferred-Languages: es, en
+Canonical: https://eluter.com/.well-known/security.txt
+Policy: https://eluter.com/security

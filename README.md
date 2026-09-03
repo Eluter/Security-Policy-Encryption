@@ -89,12 +89,10 @@ Next step: attach "report.zip.asc" to an email to security@eluter.com.
 846166114102386d42afe2e6721de15280e05b50
 ```
 
-> **Development placeholder.** The key embedded in the published package is a
-> throwaway generated for this project. Don't send real reports to it. It will
-> be swapped for Eluter's production key before release. Re-check the
-> fingerprint against the published
-> [security.txt](https://eluter.com/.well-known/security.txt) before trusting it
-> with sensitive content.
+> The key above is the one embedded in the package (RSA 3072, Eluter Security
+> `<security@eluter.com>`, created 2026-09-02). Before trusting it with
+> sensitive content, confirm the same fingerprint is published on
+> [security.txt](https://eluter.com/.well-known/security.txt).
 
 ### Links
 
@@ -182,12 +180,10 @@ security-encrypt --help          # uso
 846166114102386d42afe2e6721de15280e05b50
 ```
 
-> **Placeholder de desarrollo.** La clave embebida en el paquete publicado es
-> descartable, generada para este proyecto. No envíes reportes reales a esa
-> clave. Se reemplazará por la clave de producción de Eluter antes del release.
-> Revisá el fingerprint contra el
-> [security.txt](https://eluter.com/.well-known/security.txt) publicado antes de
-> confiarle contenido sensible.
+> La clave de arriba es la embebida en el paquete (RSA 3072, Eluter Security
+> `<security@eluter.com>`, creada el 2026-09-02). Antes de confiarle contenido
+> sensible, confirmá que el mismo fingerprint está publicado en
+> [security.txt](https://eluter.com/.well-known/security.txt).
 
 ### Links
 
